@@ -4,7 +4,7 @@
 
 `yarn add -DW @somarlyonks/tslint`
 
-tslint.json
+In `tslint.json`
 
 ```json
 {
