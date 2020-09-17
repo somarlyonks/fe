@@ -1,0 +1,24 @@
+{
+  "name": "somarlyonks",
+  "repository": "git@github.com:somarlyonks/fe.git",
+  "author": "Sy <somarl@live.com>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=12.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@somarlyonks/tslint": "1.0.0",
+    "@types/gulp": "4.0.6",
+    "@types/jest": "26.0.14",
+    "gulp": "4.0.2",
+    "jest": "26.4.2",
+    "lerna": "3.22.1",
+    "rollup": "2.27.1",
+    "typescript": "4.0.2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@somarlyonks/tslint",
+  "version": "1.0.0",
+  "description": "None",
+  "author": "Sy <somarl@live.com>",
+  "homepage": "https://github.com/somarlyonks/fe#readme",
+  "license": "MIT",
+  "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somarlyonks/fe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/somarlyonks/fe/issues"
+  },
+  "dependencies": {
+    "tslint": "6.1.3",
+    "tslint-react": "5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
