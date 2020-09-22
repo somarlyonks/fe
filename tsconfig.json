@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "allowJs": false,
     // "composite": true,
-    "declaration": true,
+    "declaration": false,
     // "declarationMap": true,
     "downlevelIteration": true,
-    "emitDecoratorMetadata": false,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
