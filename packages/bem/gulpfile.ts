@@ -16,6 +16,6 @@ gulp.task('default', async () => {
 
     await bundle.write({
         file: 'dist/index.js',
-        format: 'esm',
+        format: 'cjs',
     })
 })
