@@ -1,13 +1,15 @@
 {
   "name": "@somarlyonks/commitlint",
-  "version": "4.0.0",
+  "version": "4.0.1",
+  "type": "module",
   "description": "None",
   "author": "Sy <somarl@live.com>",
   "homepage": "https://github.com/somarlyonks/fe#readme",
   "license": "MIT",
   "main": "commitlint.config.js",
   "files": [
-    "commitlint.config.js"
+    "commitlint.config.js",
+    "README.md"
   ],
   "repository": {
     "type": "git",
@@ -22,7 +24,7 @@
   "dependencies": {
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
-    "@commitlint/config-lerna-scopes": "19.5.0"
+    "glob": "11.0.0"
   },
   "peerDependencies": {
     "husky": "9"
