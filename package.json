@@ -11,27 +11,20 @@
     "node": ">=12.8.0"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "6.0.0",
-    "@somarlyonks/commitlint": "3.0.0",
-    "@somarlyonks/tslint": "1.0.0",
-    "@types/gulp": "4.0.6",
-    "@types/jest": "26.0.14",
-    "gulp": "4.0.2",
-    "husky": "8.0.3",
-    "jest": "29.5.0",
-    "rollup": "2.27.1",
-    "ts-jest": "29.1.0",
-    "ts-node": "9.0.0",
-    "tslib": "2.0.1",
-    "typescript": "5.0.4"
+    "@rollup/plugin-typescript": "12.1.1",
+    "@somarlyonks/commitlint": "4.0.1",
+    "@types/gulp": "4.0.17",
+    "@types/jest": "29.5.14",
+    "gulp": "5.0.0",
+    "husky": "9.1.7",
+    "rollup": "4.27.4",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "tslib": "2.8.1",
+    "typescript": "5.7.2"
   },
   "scripts": {
     "commitlint": "commitlint"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "commitlint": {
     "extends": [

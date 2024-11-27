@@ -1,14 +1,14 @@
 {
-  "name": "@somarlyonks/commitlint",
-  "version": "4.0.1",
+  "name": "@somarlyonks/eslint",
+  "version": "1.0.0",
   "type": "module",
   "description": "None",
-  "author": "Sy <somarl@live.com>",
+  "author": "Yang Sheng <somarl@live.com>",
   "homepage": "https://github.com/somarlyonks/fe#readme",
   "license": "MIT",
-  "main": "commitlint.config.js",
+  "main": "eslint.config.mjs",
   "files": [
-    "commitlint.config.js",
+    "eslint.config.mjs",
     "README.md"
   ],
   "repository": {
@@ -22,12 +22,11 @@
     "url": "https://github.com/somarlyonks/fe/issues"
   },
   "dependencies": {
-    "@commitlint/cli": "19.6.0",
-    "@commitlint/config-conventional": "19.6.0",
-    "glob": "11.0.0"
-  },
-  "peerDependencies": {
-    "husky": "9"
+    "@eslint/js": "9.15.0",
+    "@stylistic/eslint-plugin": "2.11.0",
+    "eslint": "9.15.0",
+    "globals": "15.12.0",
+    "typescript-eslint": "8.16.0"
   },
   "publishConfig": {
     "access": "public"

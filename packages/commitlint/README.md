@@ -11,15 +11,16 @@ In `package.json`
     "scripts": {
         "commitlint": "commitlint"
     },
-    "husky": {
-        "hooks": {
-            "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS"
-        }
-    },
     "commitlint": {
         "extends": [
             "@somarlyonks/commitlint"
         ]
     }
 }
+```
+
+in `.husky/pre-commit`
+
+```sh
+yarn commitlint --edit "$1"
 ```
