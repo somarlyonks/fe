@@ -48,8 +48,7 @@ export default tseslint.config(
     },
     {
         ignores: [
-            '*.jsx',
-            '*.tsx',
+            '**/*.{jsx,tsx}',
         ],
         plugins: {
             'eslint-plugin-no-null': {
