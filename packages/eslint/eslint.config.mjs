@@ -47,6 +47,10 @@ export default tseslint.config(
         },
     },
     {
+        ignores: [
+            '*.jsx',
+            '*.tsx',
+        ],
         plugins: {
             'eslint-plugin-no-null': {
                 rules: {
@@ -68,5 +72,10 @@ export default tseslint.config(
         rules: {
             'eslint-plugin-no-null/no-null': 'error',
         },
+    },
+    {
+        ignores: [
+            '**/.next/',
+        ],
     },
 )
