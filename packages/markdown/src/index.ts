@@ -6,12 +6,11 @@ import fromMarkdown from 'remark-parse'
 import toHast from 'remark-rehype'
 import type {HighlighterOptions} from 'shiki'
 
-
 export default async function markdownToHtml (
     markdown: string,
     options: {
         highlightOptions?: HighlighterOptions
-    } = {}
+    } = {},
 ) {
     const {highlightOptions = {theme: 'github-light'}} = options
 
