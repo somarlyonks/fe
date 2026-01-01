@@ -1,7 +1,7 @@
 // @ts-check
 
 import eslint from '@eslint/js'
-import {defineConfig} from 'eslint/config'
+import {defineConfig, globalIgnores} from 'eslint/config'
 import tseslint from 'typescript-eslint'
 import stylistic from '@stylistic/eslint-plugin'
 import globals from 'globals'
@@ -73,9 +73,5 @@ export default defineConfig(
             'eslint-plugin-no-null/no-null': 'error',
         },
     },
-    {
-        ignores: [
-            '**/.next/',
-        ],
-    },
+    globalIgnores(['**/.next/']),
 )
