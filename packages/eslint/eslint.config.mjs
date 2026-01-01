@@ -1,11 +1,12 @@
 // @ts-check
 
 import eslint from '@eslint/js'
+import {defineConfig, globalIgnores} from 'eslint/config'
 import tseslint from 'typescript-eslint'
 import stylistic from '@stylistic/eslint-plugin'
 import globals from 'globals'
 
-export default tseslint.config(
+export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommended,
     {
@@ -24,7 +25,6 @@ export default tseslint.config(
         // https://github.com/eslint-stylistic/eslint-stylistic/blob/main/packages/eslint-plugin/configs/customize.ts
         extends: [
             stylistic.configs.customize({
-                flat: true,
                 arrowParens: false,
                 blockSpacing: false,
                 braceStyle: '1tbs',
@@ -39,6 +39,7 @@ export default tseslint.config(
         rules: {
             '@stylistic/space-before-function-paren': ['error', 'always'],
             '@stylistic/object-curly-spacing': ['error', 'never'],
+            '@stylistic/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
         },
     },
     {
@@ -72,9 +73,5 @@ export default tseslint.config(
             'eslint-plugin-no-null/no-null': 'error',
         },
     },
-    {
-        ignores: [
-            '**/.next/',
-        ],
-    },
+    globalIgnores(['**/.next/']),
 )

@@ -2,4 +2,4 @@
 
 ## LICENSE
 
-Copyright (c) 2020 Sy.
+Copyright (c) 2020-2026 Sy.

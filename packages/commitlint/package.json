@@ -1,6 +1,6 @@
 {
   "name": "@somarlyonks/commitlint",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "type": "module",
   "description": "None",
   "author": "Sy <somarl@live.com>",
@@ -22,12 +22,12 @@
     "url": "https://github.com/somarlyonks/fe/issues"
   },
   "dependencies": {
-    "@commitlint/cli": "19.6.0",
-    "@commitlint/config-conventional": "19.6.0",
-    "glob": "11.0.0"
+    "@commitlint/cli": "20.2.0",
+    "@commitlint/config-conventional": "20.2.0",
+    "glob": "13.0.0"
   },
   "peerDependencies": {
-    "husky": "9"
+    "husky": "^9"
   },
   "publishConfig": {
     "access": "public"
